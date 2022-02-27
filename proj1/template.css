@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+  }
+  
+body {
+    height: 100%;
+}
+
+.splash-page {
+    font-family: 'Noto Sans', sans-serif;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar {
+    width: 60%;
+
+}
+
+.blackbox {
+    width: 40%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+.portfolio {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin-right: 15px;
+  }
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+.intro-name {
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.intro-title {
+    font-size: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+  }
+  
+.selfie {
+    display: flex;
+    /* margin-left: 40%;
+    margin-top: 100px; */
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    left: 790px;
+    z-index: 1;
+}
+
+.whitegap {
+    width: 100%;
+    height: 2%;
+    background-color: white;
+}
+  /* For the aesthetics */
+.nav-button {
+    color: white;
+    justify-content: space-around;
+    margin: 10px;
+  }
+
+.contact-button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    size: 100px;
+    margin-top: 10px;
+  }
+
+.proj-col{
+    color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+}
+
+.proj-name {
+    margin-top: 20px;
+}
+
